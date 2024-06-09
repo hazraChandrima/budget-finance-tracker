@@ -9,7 +9,7 @@ import AddExpense from '../_components/AddExpense'
 import  EditBudget from '../_components/EditBudget'
 import ExpenseListTable from '../_components/ExpenseListTable'
 import { Button } from '@/components/ui/button'
-import { Pen, PenBox, Trash } from 'lucide-react'
+import { ArrowLeft, Pen, PenBox, Trash } from 'lucide-react'
 import {
     AlertDialog,
     AlertDialogAction,
@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/alert-dialog"
 import { useRouter } from 'next/navigation'
 import { toast } from 'sonner'
+import Link from 'next/link'
 
 
 function ExpensesScreen({ params }) {
@@ -85,7 +86,11 @@ function ExpensesScreen({ params }) {
 
     return (
         <div className='p-10'>
-            <h2 className='text-2xl font-bold flex justify-between items-center'>My Expenses
+            <h2 className='text-2xl font-bold flex justify-between items-center'>
+                <div className='flex'>
+                    <Link href={'/dashboard/expenses/'}><ArrowLeft className='pb-2 h-12 w-12'/></Link>
+                My Expenses
+                </div>
 
                 <div className='flex gap-2 items-center'>
                 <EditBudget budgetInfo={budgetInfo}
@@ -120,7 +125,6 @@ function ExpensesScreen({ params }) {
                     refreshData={() => getBudgetInfo()} />
             </div>
             <div className='mt-4'>
-                <h2 className='font-bold text-lg'>Latest Expenses</h2>
                 <ExpenseListTable expensesList={expensesList}
                     refreshData={() => getBudgetInfo()} />
             </div>

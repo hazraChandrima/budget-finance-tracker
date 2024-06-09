@@ -40,7 +40,7 @@ function BudgetList() {
                 <CreateBudget 
                 refreshData={()=>getBudgetList()}/>
                 {budgetList?.length>0? budgetList.map((budget,index)=>(
-                    <BudgetItem budget={budget}/>
+                    <BudgetItem budget={budget} key={index}/>
                 ))
                 :[1,2,3,4,5].map((item,index)=>(
                     <div key={index} className='w-full bg-slate-200 rounded-lg h-[150px] animate-pulse'>

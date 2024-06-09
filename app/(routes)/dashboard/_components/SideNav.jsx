@@ -29,9 +29,9 @@ function SideNav() {
         },
         {
             id: 4,
-            name: 'Upgrade',
+            name: 'Financial Tips',
             icon: ShieldCheck,
-            path: '/dashboard/upgrade'
+            path: '/dashboard/financial-tips'
         }
     ]
 
