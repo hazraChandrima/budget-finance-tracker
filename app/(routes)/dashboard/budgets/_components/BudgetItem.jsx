@@ -21,7 +21,7 @@ function BudgetItem({ budget }) {
                         </div>
 
                     </div>
-                    <h2 className='font-bold text-primary text-lg'>${budget.amount}</h2>
+                    <h2 className='font-bold text-primary text-lg'>₹{budget.amount}</h2>
                 </div>
                 <div className='mt-5'>
                     <div className='flex items-center justify-between mb-3'>
