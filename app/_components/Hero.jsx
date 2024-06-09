@@ -16,7 +16,7 @@ function Hero() {
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                         Effortlessly track expenses, manage budgets, and achieve financial goals easily, with MoneyMaster.
+                            Effortlessly track expenses, manage budgets, and achieve financial goals easily, with MoneyMaster.
                         </p>
 
                         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -27,16 +27,10 @@ function Hero() {
                                 Get Started
                             </a>
 
-                            <a
-                                className="block w-full rounded border border-teal-600 px-12 py-3 text-sm font-medium text-white hover:bg-teal-700 focus:outline-none focus:ring active:bg-teal-500 sm:w-auto"
-                                href="#"
-                            >
-                                Learn More
-                            </a>
                         </div>
                     </div>
                 </div>
-                <Image src='/dashboard.png' alt='dashboard' width={1150} height={700} className='-mt-9 rounded-xl border-2'/>
+                <Image src='/dashboard.png' alt='dashboard' width={1150} height={700} className='-mt-9 rounded-xl border-2' />
             </section>
         </div>
     )

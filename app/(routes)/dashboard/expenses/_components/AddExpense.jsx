@@ -49,7 +49,7 @@ function AddExpense({budgetId,user,refreshData}) {
             </div>
             <div className='mt-2'>
                 <h2 className='text-black font-bold my-1'>Expense Amount</h2>
-                <Input placeholder="e.g. 100$"
+                <Input placeholder="e.g. ₹100"
                 type="number"
                 value={amount}
                     onChange={(e) => setAmount(e.target.value)} />
