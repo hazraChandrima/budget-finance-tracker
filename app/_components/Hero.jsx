@@ -16,7 +16,7 @@ function Hero() {
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                            Effortlessly track expenses, manage budgets, and achieve financial goals easily, with MoneyMaster.
+                             Track expenses effortlessly, manage budgets, and achieve financial goals easily, with MoneyMaster.
                         </p>
 
                         <div className="mt-8 flex flex-wrap justify-center gap-4">
