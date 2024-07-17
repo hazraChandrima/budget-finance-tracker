@@ -12,6 +12,11 @@ A student-friendly financial management tool tailored to students' needs.
 
 <hr/>
 
+<img src="./public/dashboard.png" width="auto"/>
+
+<hr/>
+
+
 ## 🛠️ Tech Stack
 ### Languages :
 <img width="35" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/> &nbsp; <img width="36" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/> &nbsp; <img width="45" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/> &nbsp;
