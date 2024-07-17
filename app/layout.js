@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider publishableKey="pk_test_bmVhdC10cmVlZnJvZy0yNy5jbGVyay5hY2NvdW50cy5kZXYk">
     <html lang="en">
       <body className={quicksand.className}>
         <Toaster/>

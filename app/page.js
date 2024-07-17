@@ -6,7 +6,7 @@ import Hero from "./_components/Hero";
 export default function Home() {
   return (
     <>
-    <div>
+    <div className="w-screen h-screen bg-primary">
       <Header/>
       <Hero/>
     </div>
