@@ -30,7 +30,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <Image src='../../../public/dashboard.png' alt='dashboard' width={1150} height={700} className='-mt-9 rounded-xl border-2' />
+                <Image src='../../public/dashboard.png' alt='dashboard' width={1150} height={700} className='-mt-9 rounded-xl border-2' />
             </section>
         </div>
     )
